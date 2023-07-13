@@ -1,13 +1,18 @@
 body{
     margin: 0 auto;
     padding: 0 auto;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
-img{
+.logo{
     width: 258px;
 }
 div {
     clear:both;
     text-align:center;
+    
+}
+li{
+    list-style: none;
 }
 
 .s_ipt_wr{
@@ -72,8 +77,22 @@ div {
     outline: 0;
     float: right;
 }
+.shiy{
+    text-align: center;
+    color: #883c3c;
+    font-size: 18px;
+}
+.sy{
+    width: 500px;
+    height: 250px;
+}
+
 #footer{
     font-family: "微软雅黑";
     margin-top: 520px;
     color: #883c3c;
+}
+.tj_51{
+    height: 16px;
+    
 }
