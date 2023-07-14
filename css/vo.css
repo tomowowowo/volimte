@@ -6,13 +6,24 @@ body{
 .logo{
     width: 258px;
 }
-div {
+#mune {
+   
     clear:both;
     text-align:center;
+
     
 }
 li{
     list-style: none;
+}
+a:link{
+    color: #4e6ef2;
+    
+
+}
+a:hover{
+    color: #883c3c;
+    text-decoration: blink;
 }
 
 .s_ipt_wr{
