@@ -27,11 +27,35 @@
         </form>
         <p class="shiy">使用方法,将需要会员的视频,地址复制到输入框</p>
         <img class="sy" src="./imgs/shiy.png" alt="使用方法">
-        <h3><a href="https://qm.qq.com/q/e0NTYgKC64">联系我QQ714369585</a></h3>
-            <p id="footer">
-                2023 © volimte.vip 黔ICP20233875-2号备
-                <li class="tj_51"><a target="_blank" title="网站统计" href="https://v6.51.la/land/3FGM5UpRaVZAFBIl"><img src="https://sdk.51.la/icon/2-2.png"></a></li>
-            </p>
+       
+          
+        </div>       
+    <div class='footer'>
+    <span class="scroll"></span>
+    <span class="scroll2"></span>
+    <!-- <span id="star-five" class="scroll"></span> -->
+    <el-divider></el-divider>
+    <span class="fa">法律声明</span>
+    <el-divider direction="vertical"></el-divider>
+    <span class="you">友情链接</span>
+    <el-divider direction="vertical"></el-divider>
+    <span class="me" @click="drawer = true">联系我</span>
+    <br/>
+    
+    <span class="copyright">版权所有 2023©Volimte</span>
+    <el-drawer
+      title="联系我"
+      :visible.sync="drawer"
+      :direction="direction"
+      :before-close="handleClose">
+      <p class='info'>
+        <i class="el-icon-phone"></i>电话：13124671312<br/>
+        <i class="el-icon-message"></i>邮箱：volimte444@qq.com<br/>
+        <a target="_blank" title="网站统计" href="https://v6.51.la/land/3FGM5UpRaVZAFBIl"><img class="tj_51" src="https://sdk.51.la/icon/2-2.png"></a>
+      </p>
+    </el-drawer>
+    </div>
+
     </div>
 </body>
 </html>
