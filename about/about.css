@@ -1,0 +1,105 @@
+body {
+    -webkit-font-smoothing: auto;
+    min-width: 1200px;
+    font-family: PingFang SC,microsoft yahei,tahoma,arial,Hiragino Sans GB,sans-serif;
+    overflow-x: hidden
+}
+.about-top{
+
+font-size: 14px;
+line-height: 1.5;
+-webkit-text-size-adjust: 100%;
+--ck-highlight-marker-blue: #72cdfd;
+--ck-highlight-marker-green: #63f963;
+--ck-highlight-marker-pink: #fc7999;
+--ck-highlight-marker-yellow: #fdfd77;
+--ck-highlight-pen-green: #180;
+--ck-highlight-pen-red: #e91313;
+--ck-image-style-spacing: 1.5em;
+--ck-todo-list-checkmark-size: 16px;
+-webkit-font-smoothing: auto;
+font-family: PingFang SC,microsoft yahei,tahoma,arial,Hiragino Sans GB,sans-serif;
+box-sizing: inherit;
+height: 230px;
+background: url(https://images.51.la/cms_dist/img/52bbbaf.png) no-repeat;
+background-size: 100% 100%;
+text-align: center;
+color: #000;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+-webkit-box-pack: center;
+justify-content: center;
+}
+.about-tabs{
+    font-size: 14px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    -webkit-text-size-adjust: 100%;
+    --ck-highlight-marker-blue: #72cdfd;
+    --ck-highlight-marker-green: #63f963;
+    --ck-highlight-marker-pink: #fc7999;
+    --ck-highlight-marker-yellow: #fdfd77;
+    --ck-highlight-pen-green: #180;
+    --ck-highlight-pen-red: #e91313;
+    --ck-image-style-spacing: 1.5em;
+    --ck-todo-list-checkmark-size: 16px;
+    -webkit-font-smoothing: auto;
+    font-family: PingFang SC,microsoft yahei,tahoma,arial,Hiragino Sans GB,sans-serif;
+    box-sizing: inherit;
+    height: 50px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #fff;
+}
+.el-tabs{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    -webkit-text-size-adjust: 100%;
+    --ck-highlight-marker-blue: #72cdfd;
+    --ck-highlight-marker-green: #63f963;
+    --ck-highlight-marker-pink: #fc7999;
+    --ck-highlight-marker-yellow: #fdfd77;
+    --ck-highlight-pen-green: #180;
+    --ck-highlight-pen-red: #e91313;
+    --ck-image-style-spacing: 1.5em;
+    --ck-todo-list-checkmark-size: 16px;
+    -webkit-font-smoothing: auto;
+    font-family: PingFang SC,microsoft yahei,tahoma,arial,Hiragino Sans GB,sans-serif;
+    box-sizing: inherit;
+}
+
+.el-tabs__item{
+    -webkit-text-size-adjust: 100%;
+    --ck-highlight-marker-blue: #72cdfd;
+    --ck-highlight-marker-green: #63f963;
+    --ck-highlight-marker-pink: #fc7999;
+    --ck-highlight-marker-yellow: #fdfd77;
+    --ck-highlight-pen-green: #180;
+    --ck-highlight-pen-red: #e91313;
+    --ck-image-style-spacing: 1.5em;
+    --ck-todo-list-checkmark-size: 16px;
+    -webkit-font-smoothing: auto;
+    font-family: PingFang SC,microsoft yahei,tahoma,arial,Hiragino Sans GB,sans-serif;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 120px!important;
+    background: #f4f7fa!important;
+    border: none!important;
+    color: #717887;
+    transition: color .3s cubic-bezier(.645,.045,.355,1),padding .3s cubic-bezier(.645,.045,.355,1);
+    
+}
