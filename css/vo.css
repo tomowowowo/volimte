@@ -117,6 +117,7 @@ ul,li{
 }
 
 .footer{
+<<<<<<< HEAD
     font-size: 16px;
     width: 100%;
     position: inherit;
@@ -143,6 +144,47 @@ a:hover {
 }
 .footer .scroll{
   background: url(https://raw.githubusercontent.com/tomowowowo/volimte/main/imgs/span.gif) center;
+=======
+    height: 300px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+    padding: 0px 100px;
+    position: relative;
+    
+}
+.fa{
+    cursor: pointer;
+    color: #4e6ef2;
+}
+.you{
+    cursor: pointer;
+    color: #4e6ef2;
+}
+.me{
+    cursor: pointer;
+    color: #4e6ef2;
+}
+a:link{
+    color: #4e6ef2;
+    
+
+}
+a:hover{
+    color: #883c3c;
+    text-decoration: blink;
+}
+.copyright{
+  font-size: 12px;
+}
+.info{
+  font-size: 14px;
+  color: #72767b;
+  line-height: 25px;
+}
+.footer .scroll{
+  background: url(https://imglf4.lf127.net/img/4b07992f4ccdcf54/S1N2ZTNIeU5LNUZIOVpSL1VCK2xTdmEzb0dFK09kWXRGL21EcDJZZEtCUT0.gif)center;
+>>>>>>> 87c037821e58b27cb33514f7873975b86cc56b2f
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -151,20 +193,32 @@ a:hover {
   /*background-color: rgba(216, 16, 109,0.6); */
   position: absolute;
   left: 5%;
+<<<<<<< HEAD
   top: 30px;
+=======
+  top: 100px;
+>>>>>>> 87c037821e58b27cb33514f7873975b86cc56b2f
   z-index: 10;
   animation: scrollA infinite 30s linear alternate;
 }
 .footer .scroll2{
     display: inline-block;
+<<<<<<< HEAD
     width: 30px;
     height: 30px;
+=======
+    width: 20px;
+    height: 20px;
+>>>>>>> 87c037821e58b27cb33514f7873975b86cc56b2f
     border-radius: 5px;
     border:2px solid #eaeaea;
     /*background-color: rgba(216, 16, 109,0.6); */
     position: absolute;
     left: 5%;
+<<<<<<< HEAD
     top: -100px;
+=======
+>>>>>>> 87c037821e58b27cb33514f7873975b86cc56b2f
     z-index: 10;
     animation: scrollA infinite 20s linear alternate;
   }
@@ -189,4 +243,8 @@ a:hover {
 .tj_51{
     height: 16px;
     border-radius: 3%;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 87c037821e58b27cb33514f7873975b86cc56b2f
