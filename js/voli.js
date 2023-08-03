@@ -1,10 +1,5 @@
-function checkform(){ 
-    if(document.getElementById('kw').value.length==0){    
-        alert('请输入视频链接地址');
-        return false;
-    }
-    if(document.getElementById('kw').value=="请输入视频链接地址"){    
-        alert('请输入视频链接地址');
-        return false;
-    }
-}
+const showImageButton = document.getElementById("show-image-button");
+      const myImage = document.getElementById("my-image"); 
+      showImageButton.addEventListener("click", () => { 
+         myImage.style.display = "block"; 
+      });
