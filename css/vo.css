@@ -1,10 +1,9 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
-*,
 ::after,
 ::before {
     box-sizing: inherit;
@@ -12,9 +11,8 @@
 
 
 body {
-    width: 100%;
-    height: 100%;
     background-image: url(https://api.btstu.cn/sjbz/?lx=dongman);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
@@ -36,19 +34,22 @@ a {
 .box {
     margin: 0 auto;
     background-size: cover;
-    min-width: 900px;
-    height: 90%;
+    min-width: 800px;
+    height: 100%;
     width: 70%;
     border-radius: 0 0 1% 1%;
     /*opacity: 0.9;*/
     position: relative;
     background-image: linear-gradient(357deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-attachment: fixed;
 }
-.h-logo{
+
+.h-logo {
     text-align: center;
     margin-top: -5px;
     margin-bottom: 5px;
 }
+
 .logo {
     width: 258px;
 }
@@ -69,8 +70,7 @@ a {
 
 #palybox {
     width: 100%;
-    height: 500px;
-    opacity: 1 !important;
+    height: 600px;
 }
 
 /*输入input样式*/
@@ -82,13 +82,15 @@ a {
     z-index: 1;
     text-align: center;
 }
-.input-group{
+
+.input-group {
     position: relative;
     margin: 0 auto;
     text-align: left;
     display: inline-block;
     z-index: 100;
 }
+
 .form-control {
     width: 443px;
     height: 16px;
@@ -107,15 +109,21 @@ a {
     padding-right: 100px;
     -webkit-tap-highlight-color: transparent;
 }
-.input-group-add,.input-group-btn,.input-group-play{
+
+.input-group-add,
+.input-group-btn,
+.input-group-play {
     width: 108px;
     height: 44px;
     position: relative;
     z-index: 2;
     display: inline-block;
 }
-.select-btn,.btn,.btn-play{
-    
+
+.select-btn,
+.btn,
+.btn-play {
+
     cursor: pointer;
     width: 108px;
     height: 44px;
@@ -128,23 +136,25 @@ a {
     border: none;
     outline: 0;
 }
-.select-btn{
+
+.select-btn {
     color: #000;
     border: 0.1px solid whitesmoke;
 }
-.btn{
+
+.btn {
     background-color: #4e6ef2;
 }
 
 .url-text:focus {
-    
+
     border-color: #66afe9;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
 }
 
-.btn-play {
+.btn {
     border-radius: 0 10px 10px 0;
     background: -webkit-linear-gradient(left, #19c3ff, #0093ff);
     /* Safari 5.1 - 6.0 */
@@ -156,41 +166,40 @@ a {
     /* 标准的语法 */
 }
 
-.title-tit{
+.title-tit {
     color: #000;
     font-size: 13px;
-    
+
+
+}
+
+.tishi {
+    text-align: center;
+    font-size: 16px;
+    color: red;
 }
 
 .col-lg-12 {
-    -webkit-text-size-adjust: 100%;
     line-height: 18px;
     color: #676a6c;
     box-sizing: border-box;
-    font-family: Arial, "Microsoft Yahei", sans-serif, 宋体;
-    height: 352px;
 }
 
 .row {
-    -webkit-text-size-adjust: 100%;
+
     margin-left: 3.5%;
     color: #676a6c;
     box-sizing: border-box;
-    font-family: Arial, "Microsoft Yahei", sans-serif, 宋体;
+    margin-top: 1rem;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-
 
 }
 
-.col-xs-4 {
-    -webkit-text-size-adjust: 100%;
+.col {
+
     line-height: inherit;
-    font-size: 13px;
     color: #676a6c;
     box-sizing: border-box;
-    font-family: Arial, "Microsoft Yahei", sans-serif, 宋体;
-    margin: 0px;
-    padding: 0px;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     position: relative;
     min-height: 1px;
@@ -201,10 +210,10 @@ a {
 }
 
 .logo-lie {
-    -webkit-text-size-adjust: 100%;
+
     line-height: inherit;
     box-sizing: border-box;
-    font-family: Arial, "Microsoft Yahei", sans-serif, 宋体;
+
     margin: 0 auto;
     padding: auto;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -220,50 +229,34 @@ a {
     text-align: center;
 }
 
-.logo-box>.container>.row>.col-xs-4 {
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-bottom: 5px;
+.img-responsive {
+    width: 50%;
 }
 
-.logo-box>.container>.row>.col-lg-12 {
-    padding-right: 0px;
-    padding-left: 0px;
-}
+
 
 .logo-lie:hover {
-    -webkit-box-shadow: #b2bbad 0px 10px 10px;
-    -moz-box-shadow: #92f5b3 0px 10px 10px;
+    -webkit-box-shadow: #eee9f3 0px 10px 10px;
+    -moz-box-shadow: #f592bb 0px 10px 10px;
     box-shadow: #91f56a 0px 10px 10px;
 }
-/*hr{
-    display: block;
-    height: 1px;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    background-color: #0093ff;
+
+/*.f-link {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
 
 }*/
 
-.code-play {
-    position: absolute;   
-    left: 110px;  
-    top: 0;
-    display: none;  
-}
-.code-play {     
-    display: block;   
-}
-.f-link{
-    margin-top: 10px;  
-    
-}
-
-.footer,.f-link {
+.footer {
     font-size: 16px;
-    z-index: 99999;
+    z-index: 9999;
     text-align: center;
-    position: relative;
+    bottom: 0px;
+    position: fixed;
+    height: 5%;
+    width: 100%;
 
 }
 
